@@ -1,12 +1,11 @@
+import { getContent } from "/js/utils.js";
+
 const save = document.getElementById("save");
 const textarea = document.getElementById("matches");
 
-async function getContent() {
-  let matches = await browser.storage.local.get();
-  matches = matches.matches.join("\n");
-  textarea.value = matches;
-}
-getContent();
+let matches = await getContent();
+matches = matches.matches.join("\n");
+textarea.value = matches;
 
 save.addEventListener('click', (event) => {
   let matches = document.getElementById("matches").value;
