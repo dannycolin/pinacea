@@ -1,0 +1,27 @@
+{
+  "name": "Autopin",
+  "version": "0.3.0",
+  "description": "Autopin tabs matching specific domain names",
+  "main": "index.js",
+  "scripts": {
+    "dev": "web-ext lint && web-ext run",
+    "build": "web-ext lint && web-ext build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannycolin/autopin.git"
+  },
+  "keywords": [
+    "tab",
+    "pin",
+    "firefox",
+    "extension",
+    "addon"
+  ],
+  "author": "Danny Colin",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dannycolin/autopin/issues"
+  },
+  "homepage": "https://github.com/dannycolin/autopin#readme"
+}
