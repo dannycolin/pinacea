@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Autopin",
   "description": "Autopin tabs matching specific domain names",
   "author": "Danny Colin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage_url": "https://github.com/dannycolin/autopin",
   "browser_specific_settings": {
     "gecko": {
@@ -15,7 +15,7 @@
     "48": "img/logo.svg",
     "96": "img/logo.svg"
   },
-  "browser_action": {
+  "action": {
     "browser_style": false,
     "default_title": "Autopin",
     "default_popup": "html/popup.html"
@@ -25,7 +25,8 @@
     "open_in_tab": false
   },
   "background": {
-    "page": "html/background.html"
+    "page": "html/background.html",
+    "service_worker": "js/background.js"
   },
   "permissions": [
     "storage",
