@@ -4,7 +4,7 @@
   "description": "A Pinned Tabs Manager",
   "author": "Danny Colin",
   "version": "0.4.0",
-  "homepage_url": "https://github.com/dannycolin/autopin",
+  "homepage_url": "https://github.com/dannycolin/pinacea",
   "browser_specific_settings": {
     "gecko": {
       "id": "pinacea@dannycolin.com",
@@ -15,17 +15,20 @@
     "48": "img/logo.svg",
     "96": "img/logo.svg"
   },
-  "action": {
-    "browser_style": false,
-    "default_title": "Pinacea",
-    "default_popup": "html/popup.html"
-  },
   "options_ui": {
     "page": "html/options.html",
     "open_in_tab": false
   },
   "background": {
     "page": "html/background.html"
+  },
+  "commands": {
+    "toggle-pin-tab": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "(un)pin tab"
+    }
   },
   "permissions": [
     "storage",

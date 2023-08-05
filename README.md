@@ -1,6 +1,9 @@
 # Pinacea
 
-A pinned tab manager
+Helps you manage your pinned tabs.
+
+* Auto pin tabs based on regex rules
+* Manually toggle pin state with a shortcut (default: Alt+P)
 
 ## License
 
