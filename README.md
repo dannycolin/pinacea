@@ -1,6 +1,6 @@
-# Autopin
+# Pinacea
 
-Autopin tabs matching specific domain names.
+A pinned tab manager
 
 ## License
 

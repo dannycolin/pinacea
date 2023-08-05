@@ -1,7 +1,7 @@
 {
-  "name": "Autopin",
-  "version": "0.3.0",
-  "description": "Autopin tabs matching specific domain names",
+  "name": "Pinacea",
+  "version": "0.4.0",
+  "description": "A Pinned Tabs Manager",
   "main": "index.js",
   "scripts": {
     "dev": "web-ext lint && web-ext run",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dannycolin/autopin.git"
+    "url": "git+https://github.com/dannycolin/pinacea.git"
   },
   "keywords": [
     "tab",
@@ -21,7 +21,7 @@
   "author": "Danny Colin",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/dannycolin/autopin/issues"
+    "url": "https://github.com/dannycolin/pinacea/issues"
   },
-  "homepage": "https://github.com/dannycolin/autopin#readme"
+  "homepage": "https://github.com/dannycolin/pinacea#readme"
 }
